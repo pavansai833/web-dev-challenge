@@ -31,7 +31,7 @@ This repository contains all my completed tasks for **Week 1**.
 
 ### **3️⃣ Personal Portfolio**
 - Built a **static portfolio** using HTML & CSS.
-- Deployed on **AWS S3**: [**Live Portfolio Link**](http://your-bucket-name.s3-website-region.amazonaws.com).
+- Deployed on **AWS S3**: [**Live Portfolio Link**](http://pavansai-portfolio.s3-website.ap-south-1.amazonaws.com/).
 
 ---
 
