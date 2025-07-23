@@ -26,13 +26,11 @@ async function todayIMg() {
 function  displayAPOD(apidata, heading) {
      if (apidata.media_type === "image") {
         image.classList.remove('show');
-        setTimeout(() => {
             image.src = apidata.url;
             title.innerHTML = apidata.title;
             para.innerHTML = apidata.explanation;
             head.innerHTML = heading;
             image.classList.add('show');
-        }, 2000);
     } else {
         image.src = "./asserts/Nasa_Isro.webp";
         para.innerHTML = `Today's APOD is a video: <a href="${apidata.url}" target="_blank">Watch here</a>`;
